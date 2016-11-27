@@ -35,6 +35,12 @@ class ResizeAndAnalyseBehavior extends Behavior
 		    $constraint->upsize();
 		});
 		$img->encode('jpg', 70);
+		$data = $img->exif();
+		if($data['Orientation'] == 3) {
+			$img->rotate(-90);	
+		}
+
+
 
 		$img->save(WWW_ROOT . $entity->file);
 
