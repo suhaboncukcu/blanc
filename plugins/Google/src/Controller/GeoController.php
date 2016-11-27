@@ -19,21 +19,31 @@ class GeoController extends AppController
         header("Access-Control-Allow-Origin: *");
     }
 
+    /*
+	$timespan = [
+		'year'	=> '2015',
+		'month'=> '0',
+		'day'	=> '28',
+	];
+	$path = 'https://www.google.com/maps/timeline/kml?authuser=0&pb=!1m8!1m3!1i'.$timespan['year'].'!2i'.$timespan['month'].'!3i'.$timespan['day'].'!2m3!1i'.$timespan['year'].'!2i'.$timespan['month'].'!3i'.$timespan['day'];
+	*/
     public function index()
     {
-    	$path = WWW_ROOT . 'kmls' . DS . 'test.kml';
+
+    	$allDays = array();
+    	$days = [1,2,3,4,5,6];
+    	foreach ($days as $day) {
+    		$path = WWW_ROOT . 'kmls' . DS . $day . '.kml';
+
+    		$allDays[] = $this->extractData($path);
+    	}
     	
-    	/*
-    	$timespan = [
-    		'year'	=> '2015',
-    		'month'=> '0',
-    		'day'	=> '28',
-    	];
-    	$path = 'https://www.google.com/maps/timeline/kml?authuser=0&pb=!1m8!1m3!1i'.$timespan['year'].'!2i'.$timespan['month'].'!3i'.$timespan['day'].'!2m3!1i'.$timespan['year'].'!2i'.$timespan['month'].'!3i'.$timespan['day'];
-    	*/
 
+        $this->response->body(json_encode($allDays));
+    }
 
-
+    public function extractData($path)
+    {
     	$xml = Xml::build($path);
     	$kmlArray = Xml::toArray($xml);
     	$placeMarks = $kmlArray['kml']['Document']['Placemark'];
@@ -60,9 +70,6 @@ class GeoController extends AppController
 		});
 
 
-		$jsonData = json_encode($collection->toArray());
-
-
-        $this->response->body($jsonData);
+		return $collection->toArray();
     }
 }

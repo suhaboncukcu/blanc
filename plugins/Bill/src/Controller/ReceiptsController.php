@@ -11,6 +11,23 @@ use Bill\Controller\AppController;
 class ReceiptsController extends AppController
 {
 
+
+    public function getJson()
+    {
+        $this->autoRender = false;
+        $this->response->header('Content-Type', 'application/json');
+
+
+        $jsonData = $this->Receipts
+                                ->find('all')
+                                ->order(['created' => 'DESC'])
+                                ->all()->toArray();
+
+        $jsonData = json_encode($jsonData);
+
+        $this->response->body($jsonData);
+    }
+
     /**
      * Index method
      *

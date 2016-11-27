@@ -237,3 +237,5 @@ Plugin::load('Xety/Cake3Upload');
 Plugin::load('BootstrapUI');
 
 
+
+Plugin::load('Emissions', ['bootstrap' => false, 'routes' => true]);

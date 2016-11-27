@@ -10,6 +10,8 @@ use Intervention\Image\Image;
 
 use Bill\Utility\Analyser;
 
+use Cake\Collection\Collection;
+
 
 /**
  * ResizeAndAnalyse behavior
@@ -52,6 +54,31 @@ class ResizeAndAnalyseBehavior extends Behavior
 		$entity->results = $result;
 		$Receipts = TableRegistry::get('Receipts');
 		$Receipts->save($entity);
+
+
+		$Meals = TableRegistry::get('Emissions.Meals');
+		$meal = $Meals->newEntity();
+		$collection =  new Collection(json_decode($result, TRUE));
+		$result = $collection->toArray()['ParsedResults'][0]['ParsedText'];	
+		$data = array();
+
+		if(stripos($result, 'burger') !== false) {
+			$data['is_meat'] = true;
+		} else if(stripos($result, 'meat') !== false){
+			$data['is_meat'] = true;
+		} else {
+			$data['is_meat'] = false;
+		}
+
+		$data['is_outside'] = true;
+
+		$rand = $value = rand(0,1) == 1;
+		$data['is_community'] = $rand;
+
+		$data['amount'] = 200;
+
+		$Meals->patchEntity($meal, $data);
+		$Meals->save($meal);
 
     }
 }

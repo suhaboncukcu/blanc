@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document>
+        <name> Location history from 2016-10-22 to 2016-10-22 </name>
+        <open>1</open>
+        <description></description>
+        <StyleMap id="multiTrack">
+            <Pair>
+                <key>normal</key>
+                <styleUrl>#multiTrack_n</styleUrl>
+            </Pair>
+            <Pair>
+                <key>highlight</key>
+                <styleUrl>#multiTrack_h</styleUrl>
+            </Pair>
+        </StyleMap>
+        <Style id="multiTrack_n">
+            <IconStyle>
+                <Icon>
+                    <href>https://earth.google.com/images/kml-icons/track-directional/track-0.png</href>
+                </Icon>
+            </IconStyle>
+            <LineStyle>
+                <color>99ffac59</color>
+                <width>6</width>
+            </LineStyle>
+        </Style>
+        <Style id="multiTrack_h">
+            <IconStyle>
+                <scale>1.2</scale>
+                <Icon>
+                    <href>https://earth.google.com/images/kml-icons/track-directional/track-0.png</href>
+                </Icon>
+            </IconStyle>
+            <LineStyle>
+                <color>99ffac59</color>
+                <width>8</width>
+            </LineStyle>
+        </Style>
+        <Placemark>
+            <name>Brouwersgracht 677</name>
+            <address>Brouwersgracht 677, 1015 GJ Amsterdam, Netherlands</address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>david@guiza.net</value>
+                </Data>
+                <Data name="Category">
+                    <value>Geocoded Address</value>
+                </Data>
+                <Data name="Distance">
+                    <value>0</value>
+                </Data>
+            </ExtendedData>
+            <description> Geocoded Address from 2016-10-21T17:26:04.834Z to 2016-10-22T11:20:51.064Z. Distance 0m </description>
+            <Point>
+                <coordinates></coordinates>
+            </Point>
+            <gx:Track>
+                <altitudeMode>clampToGround</altitudeMode>
+                <gx:coord>4.8839185 52.3827333 0</gx:coord>
+            </gx:Track>
+            <TimeSpan>
+                <begin>2016-10-21T17:26:04.834Z</begin>
+                <end>2016-10-22T11:20:51.064Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>Walking</name>
+            <address></address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>david@guiza.net</value>
+                </Data>
+                <Data name="Category">
+                    <value>Walking</value>
+                </Data>
+                <Data name="Distance">
+                    <value>213</value>
+                </Data>
+            </ExtendedData>
+            <description> Walking from 2016-10-22T11:20:51.064Z to 2016-10-22T11:22:53.000Z. Distance 213m </description>
+            <Point>
+                <coordinates></coordinates>
+            </Point>
+            <gx:Track>
+                <altitudeMode>clampToGround</altitudeMode>
+                <gx:coord>4.8839185 52.3827333 0</gx:coord>
+                <gx:coord>4.8849732 52.3821418 0</gx:coord>
+                <gx:coord>4.8848981 52.380221399999996 0</gx:coord>
+            </gx:Track>
+            <TimeSpan>
+                <begin>2016-10-22T11:20:51.064Z</begin>
+                <end>2016-10-22T11:22:53.000Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>Lindengracht Markt</name>
+            <address>Lindengracht, 1015 JX Amsterdam, Netherlands</address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>david@guiza.net</value>
+                </Data>
+                <Data name="Category">
+                    <value>Market</value>
+                </Data>
+                <Data name="Distance">
+                    <value>0</value>
+                </Data>
+            </ExtendedData>
+            <description> Market from 2016-10-22T11:22:53.000Z to 2016-10-22T11:50:49.000Z. Distance 0m </description>
+            <Point>
+                <coordinates></coordinates>
+            </Point>
+            <gx:Track>
+                <altitudeMode>clampToGround</altitudeMode>
+                <gx:coord>4.8848981 52.380221399999996 0</gx:coord>
+            </gx:Track>
+            <TimeSpan>
+                <begin>2016-10-22T11:22:53.000Z</begin>
+                <end>2016-10-22T11:50:49.000Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>Walking</name>
+            <address></address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>david@guiza.net</value>
+                </Data>
+                <Data name="Category">
+                    <value>Walking</value>
+                </Data>
+                <Data name="Distance">
+                    <value>230</value>
+                </Data>
+            </ExtendedData>
+            <description> Walking from 2016-10-22T11:50:49.824Z to 2016-10-22T11:55:04.980Z. Distance 230m </description>
+            <Point>
+                <coordinates></coordinates>
+            </Point>
+            <gx:Track>
+                <altitudeMode>clampToGround</altitudeMode>
+                <gx:coord>4.8851666 52.3802994 0</gx:coord>
+                <gx:coord>4.8844312 52.3796627 0</gx:coord>
+                <gx:coord>4.8864336 52.3792465 0</gx:coord>
+                <gx:coord>4.8862209 52.3790661 0</gx:coord>
+            </gx:Track>
+            <TimeSpan>
+                <begin>2016-10-22T11:50:49.824Z</begin>
+                <end>2016-10-22T11:55:04.980Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>Winkel 43</name>
+            <address>Noordermarkt 43, 1015 NA Amsterdam, Netherlands</address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>david@guiza.net</value>
+                </Data>
+                <Data name="Category">
+                    <value>Cafe</value>
+                </Data>
+                <Data name="Distance">
+                    <value>0</value>
+                </Data>
+            </ExtendedData>
+            <description> Cafe from 2016-10-22T11:55:04.980Z to 2016-10-22T12:45:35.134Z. Distance 0m </description>
+            <Point>
+                <coordinates></coordinates>
+            </Point>
+            <gx:Track>
+                <altitudeMode>clampToGround</altitudeMode>
+                <gx:coord>4.8862209 52.3790661 0</gx:coord>
+            </gx:Track>
+            <TimeSpan>
+                <begin>2016-10-22T11:55:04.980Z</begin>
+                <end>2016-10-22T12:45:35.134Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>Walking</name>
+            <address></address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>david@guiza.net</value>
+                </Data>
+                <Data name="Category">
+                    <value>Walking</value>
+                </Data>
+                <Data name="Distance">
+                    <value>415</value>
+                </Data>
+            </ExtendedData>
+            <description> Walking from 2016-10-22T12:45:35.134Z to 2016-10-22T12:52:35.180Z. Distance 415m </description>
+            <Point>
+                <coordinates></coordinates>
+            </Point>
+            <gx:Track>
+                <altitudeMode>clampToGround</altitudeMode>
+                <gx:coord>4.8862209 52.3790661 0</gx:coord>
+                <gx:coord>4.8859925 52.3788061 0</gx:coord>
+                <gx:coord>4.8858437 52.3803131 0</gx:coord>
+                <gx:coord>4.8854752 52.3809121 0</gx:coord>
+                <gx:coord>4.8855629 52.381367 0</gx:coord>
+                <gx:coord>4.884811 52.3823987 0</gx:coord>
+                <gx:coord>4.8839185 52.3827333 0</gx:coord>
+            </gx:Track>
+            <TimeSpan>
+                <begin>2016-10-22T12:45:35.134Z</begin>
+                <end>2016-10-22T12:52:35.180Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>Brouwersgracht 677</name>
+            <address>Brouwersgracht 677, 1015 GJ Amsterdam, Netherlands</address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>david@guiza.net</value>
+                </Data>
+                <Data name="Category">
+                    <value>Geocoded Address</value>
+                </Data>
+                <Data name="Distance">
+                    <value>0</value>
+                </Data>
+            </ExtendedData>
+            <description> Geocoded Address from 2016-10-22T12:52:35.180Z to 2016-10-22T13:39:49.000Z. Distance 0m </description>
+            <Point>
+                <coordinates></coordinates>
+            </Point>
+            <gx:Track>
+                <altitudeMode>clampToGround</altitudeMode>
+                <gx:coord>4.8839185 52.3827333 0</gx:coord>
+            </gx:Track>
+            <TimeSpan>
+                <begin>2016-10-22T12:52:35.180Z</begin>
+                <end>2016-10-22T13:39:49.000Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>Amsterdam, Nieuwe Willemsstraat</name>
+            <address>1015 GN Amsterdam, Netherlands</address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>david@guiza.net</value>
+                </Data>
+                <Data name="Category">
+                    <value>Transit Stop</value>
+                </Data>
+                <Data name="Distance">
+                    <value>0</value>
+                </Data>
+            </ExtendedData>
+            <description> Transit Stop from 2016-10-22T13:39:49.000Z to 2016-10-22T13:43:33.000Z. Distance 0m </description>
+            <Point>
+                <coordinates></coordinates>
+            </Point>
+            <gx:Track>
+                <altitudeMode>clampToGround</altitudeMode>
+                <gx:coord>4.880869 52.381159 0</gx:coord>
+            </gx:Track>
+            <TimeSpan>
+                <begin>2016-10-22T13:39:49.000Z</begin>
+                <end>2016-10-22T13:43:33.000Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>On a tram</name>
+            <address></address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>david@guiza.net</value>
+                </Data>
+                <Data name="Category">
+                    <value>On a tram</value>
+                </Data>
+                <Data name="Distance">
+                    <value>0</value>
+                </Data>
+            </ExtendedData>
+            <description> On a tram from 2016-10-22T13:43:33.000Z to 2016-10-22T13:47:37.000Z. Distance 0m </description>
+            <Point>
+                <coordinates></coordinates>
+            </Point>
+            <gx:Track>
+                <altitudeMode>clampToGround</altitudeMode>
+                <gx:coord>4.880869 52.381159 0</gx:coord>
+            </gx:Track>
+            <TimeSpan>
+                <begin>2016-10-22T13:43:33.000Z</begin>
+                <end>2016-10-22T13:47:37.000Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>Da Costabuurt</name>
+            <address>Amsterdam, Netherlands</address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>david@guiza.net</value>
+                </Data>
+                <Data name="Category">
+                    <value>Sublocality2</value>
+                </Data>
+                <Data name="Distance">
+                    <value>0</value>
+                </Data>
+            </ExtendedData>
+            <description> Sublocality2 from 2016-10-22T13:47:37.928Z to 2016-10-22T14:09:57.154Z. Distance 0m </description>
+            <Point>
+                <coordinates></coordinates>
+            </Point>
+            <gx:Track>
+                <altitudeMode>clampToGround</altitudeMode>
+                <gx:coord>4.872641499999999 52.3696024 0</gx:coord>
+            </gx:Track>
+            <TimeSpan>
+                <begin>2016-10-22T13:47:37.928Z</begin>
+                <end>2016-10-22T14:09:57.154Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>On a tram</name>
+            <address></address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>david@guiza.net</value>
+                </Data>
+                <Data name="Category">
+                    <value>On a tram</value>
+                </Data>
+                <Data name="Distance">
+                    <value>6953</value>
+                </Data>
+            </ExtendedData>
+            <description> On a tram from 2016-10-22T14:09:57.154Z to 2016-10-22T14:36:20.000Z. Distance 6953m </description>
+            <Point>
+                <coordinates></coordinates>
+            </Point>
+            <gx:Track>
+                <altitudeMode>clampToGround</altitudeMode>
+                <gx:coord>4.873009597591354 52.36744913826242 0</gx:coord>
+                <gx:coord>4.8678954 52.3659215 0</gx:coord>
+                <gx:coord>4.8605089 52.3645634 0</gx:coord>
+                <gx:coord>4.8555768 52.3645259 0</gx:coord>
+                <gx:coord>4.8533041 52.3628032 0</gx:coord>
+                <gx:coord>4.8531307 52.3589898 0</gx:coord>
+                <gx:coord>4.8483976 52.3578361 0</gx:coord>
+                <gx:coord>4.839824 52.3579257 0</gx:coord>
+                <gx:coord>4.8332048 52.3576317 0</gx:coord>
+                <gx:coord>4.8212384 52.3576756 0</gx:coord>
+                <gx:coord>4.8095405 52.3562749 0</gx:coord>
+                <gx:coord>4.8085137 52.3578013 0</gx:coord>
+                <gx:coord>4.8073573 52.3596299 0</gx:coord>
+                <gx:coord>4.8077009 52.3596285 0</gx:coord>
+                <gx:coord>4.8077001 52.3596296 0</gx:coord>
+                <gx:coord>4.8076796 52.3596446 0</gx:coord>
+                <gx:coord>4.8073134 52.3603152 0</gx:coord>
+                <gx:coord>4.8070132 52.3600589 0</gx:coord>
+                <gx:coord>4.8011802 52.358315 0</gx:coord>
+                <gx:coord>4.786258999999999 52.355664999999995 0</gx:coord>
+            </gx:Track>
+            <TimeSpan>
+                <begin>2016-10-22T14:09:57.154Z</begin>
+                <end>2016-10-22T14:36:20.000Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>Amsterdam, Dijkgraafplein</name>
+            <address>1069 EN Amsterdam, Netherlands</address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>david@guiza.net</value>
+                </Data>
+                <Data name="Category">
+                    <value>Bus Station</value>
+                </Data>
+                <Data name="Distance">
+                    <value>0</value>
+                </Data>
+            </ExtendedData>
+            <description> Bus Station from 2016-10-22T14:36:20.000Z to 2016-10-22T14:39:20.000Z. Distance 0m </description>
+            <Point>
+                <coordinates></coordinates>
+            </Point>
+            <gx:Track>
+                <altitudeMode>clampToGround</altitudeMode>
+                <gx:coord>4.786258999999999 52.355664999999995 0</gx:coord>
+            </gx:Track>
+            <TimeSpan>
+                <begin>2016-10-22T14:36:20.000Z</begin>
+                <end>2016-10-22T14:39:20.000Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>Walking</name>
+            <address></address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>david@guiza.net</value>
+                </Data>
+                <Data name="Category">
+                    <value>Walking</value>
+                </Data>
+                <Data name="Distance">
+                    <value>480</value>
+                </Data>
+            </ExtendedData>
+            <description> Walking from 2016-10-22T14:39:20.000Z to 2016-10-22T14:44:10.883Z. Distance 480m </description>
+            <Point>
+                <coordinates></coordinates>
+            </Point>
+            <gx:Track>
+                <altitudeMode>clampToGround</altitudeMode>
+                <gx:coord>4.786258999999999 52.355664999999995 0</gx:coord>
+                <gx:coord>4.7857389 52.3571953 0</gx:coord>
+                <gx:coord>4.7849207 52.35839 0</gx:coord>
+                <gx:coord>4.7839728 52.3597324 0</gx:coord>
+                <gx:coord>4.7824098 52.3602024 0</gx:coord>
+            </gx:Track>
+            <TimeSpan>
+                <begin>2016-10-22T14:39:20.000Z</begin>
+                <end>2016-10-22T14:44:10.883Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>G-Star Outlet Amsterdam</name>
+            <address>Zuidermolenweg 60, 1069 CG Amsterdam, Netherlands</address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>david@guiza.net</value>
+                </Data>
+                <Data name="Category">
+                    <value>Clothing Store</value>
+                </Data>
+                <Data name="Distance">
+                    <value>0</value>
+                </Data>
+            </ExtendedData>
+            <description> Clothing Store from 2016-10-22T14:44:10.883Z to 2016-10-22T16:13:08.978Z. Distance 0m </description>
+            <Point>
+                <coordinates></coordinates>
+            </Point>
+            <gx:Track>
+                <altitudeMode>clampToGround</altitudeMode>
+                <gx:coord>4.7824098 52.3602024 0</gx:coord>
+            </gx:Track>
+            <TimeSpan>
+                <begin>2016-10-22T14:44:10.883Z</begin>
+                <end>2016-10-22T16:13:08.978Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>Walking</name>
+            <address></address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>david@guiza.net</value>
+                </Data>
+                <Data name="Category">
+                    <value>Walking</value>
+                </Data>
+                <Data name="Distance">
+                    <value>417</value>
+                </Data>
+            </ExtendedData>
+            <description> Walking from 2016-10-22T16:13:08.978Z to 2016-10-22T16:19:18.809Z. Distance 417m </description>
+            <Point>
+                <coordinates></coordinates>
+            </Point>
+            <gx:Track>
+                <altitudeMode>clampToGround</altitudeMode>
+                <gx:coord>4.7824098 52.3602024 0</gx:coord>
+                <gx:coord>4.7830935 52.3597975 0</gx:coord>
+                <gx:coord>4.7841841 52.3589198 0</gx:coord>
+                <gx:coord>4.7848933 52.3579327 0</gx:coord>
+                <gx:coord>4.7859894 52.3565033 0</gx:coord>
+                <gx:coord>4.7862534 52.355366700000005 0</gx:coord>
+            </gx:Track>
+            <TimeSpan>
+                <begin>2016-10-22T16:13:08.978Z</begin>
+                <end>2016-10-22T16:19:18.809Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>Amsterdam, Dijkgraafplein</name>
+            <address>1069 EN Amsterdam, Netherlands</address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>david@guiza.net</value>
+                </Data>
+                <Data name="Category">
+                    <value>Light Rail Station</value>
+                </Data>
+                <Data name="Distance">
+                    <value>0</value>
+                </Data>
+            </ExtendedData>
+            <description> Light Rail Station from 2016-10-22T16:19:18.809Z to 2016-10-22T16:39:53.000Z. Distance 0m </description>
+            <Point>
+                <coordinates></coordinates>
+            </Point>
+            <gx:Track>
+                <altitudeMode>clampToGround</altitudeMode>
+                <gx:coord>4.7862534 52.355366700000005 0</gx:coord>
+            </gx:Track>
+            <TimeSpan>
+                <begin>2016-10-22T16:19:18.809Z</begin>
+                <end>2016-10-22T16:39:53.000Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>On a tram</name>
+            <address></address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>david@guiza.net</value>
+                </Data>
+                <Data name="Category">
+                    <value>On a tram</value>
+                </Data>
+                <Data name="Distance">
+                    <value>7736</value>
+                </Data>
+            </ExtendedData>
+            <description> On a tram from 2016-10-22T16:39:53.000Z to 2016-10-22T17:08:10.000Z. Distance 7736m </description>
+            <Point>
+                <coordinates></coordinates>
+            </Point>
+            <gx:Track>
+                <altitudeMode>clampToGround</altitudeMode>
+                <gx:coord>4.7862534 52.355366700000005 0</gx:coord>
+                <gx:coord>4.7880238 52.3555392 0</gx:coord>
+                <gx:coord>4.7903112 52.3561831 0</gx:coord>
+                <gx:coord>4.7915741 52.3564421 0</gx:coord>
+                <gx:coord>4.7915293 52.3564543 0</gx:coord>
+                <gx:coord>4.791956 52.3566008 0</gx:coord>
+                <gx:coord>4.7939796 52.3569965 0</gx:coord>
+                <gx:coord>4.7961468 52.3575363 0</gx:coord>
+                <gx:coord>4.79807 52.3578106 0</gx:coord>
+                <gx:coord>4.7991653 52.3579845 0</gx:coord>
+                <gx:coord>4.7991792 52.3579827 0</gx:coord>
+                <gx:coord>4.7991799 52.3579833 0</gx:coord>
+                <gx:coord>4.8001695 52.3581703 0</gx:coord>
+                <gx:coord>4.8014267 52.3584453 0</gx:coord>
+                <gx:coord>4.8022216 52.3586831 0</gx:coord>
+                <gx:coord>4.8031749 52.3589112 0</gx:coord>
+                <gx:coord>4.8032215 52.3592211 0</gx:coord>
+                <gx:coord>4.8029547 52.359566 0</gx:coord>
+                <gx:coord>4.8077737 52.3592469 0</gx:coord>
+                <gx:coord>4.8101864 52.3568047 0</gx:coord>
+                <gx:coord>4.8106192 52.3564721 0</gx:coord>
+                <gx:coord>4.8183334 52.3577602 0</gx:coord>
+                <gx:coord>4.8232915 52.3579445 0</gx:coord>
+                <gx:coord>4.8301054 52.3578286 0</gx:coord>
+                <gx:coord>4.8384509 52.3577273 0</gx:coord>
+                <gx:coord>4.8518833 52.3583632 0</gx:coord>
+                <gx:coord>4.8533416 52.3582303 0</gx:coord>
+                <gx:coord>4.8533685 52.3590706 0</gx:coord>
+                <gx:coord>4.8533234 52.3603693 0</gx:coord>
+                <gx:coord>4.8532656 52.3616775 0</gx:coord>
+                <gx:coord>4.8532844 52.3616976 0</gx:coord>
+                <gx:coord>4.85324 52.3626262 0</gx:coord>
+                <gx:coord>4.8531635 52.3637056 0</gx:coord>
+                <gx:coord>4.8536913 52.3641715 0</gx:coord>
+                <gx:coord>4.8550212 52.3643406 0</gx:coord>
+                <gx:coord>4.8559741 52.3644346 0</gx:coord>
+                <gx:coord>4.856674 52.3646505 0</gx:coord>
+                <gx:coord>4.8578963 52.364756 0</gx:coord>
+                <gx:coord>4.8585967 52.3647991 0</gx:coord>
+                <gx:coord>4.8590423 52.3648704 0</gx:coord>
+                <gx:coord>4.863646 52.3650544 0</gx:coord>
+                <gx:coord>4.867132 52.3656141 0</gx:coord>
+                <gx:coord>4.8672801 52.3658902 0</gx:coord>
+                <gx:coord>4.8672755 52.3659092 0</gx:coord>
+                <gx:coord>4.8687515 52.3663252 0</gx:coord>
+                <gx:coord>4.8704613 52.3667844 0</gx:coord>
+                <gx:coord>4.8710837 52.3669503 0</gx:coord>
+                <gx:coord>4.871439 52.3670573 0</gx:coord>
+                <gx:coord>4.8715005 52.3671007 0</gx:coord>
+                <gx:coord>4.8720648 52.3672515 0</gx:coord>
+                <gx:coord>4.8734498 52.3676506 0</gx:coord>
+                <gx:coord>4.8748325 52.3680722 0</gx:coord>
+                <gx:coord>4.8755859 52.3682784 0</gx:coord>
+                <gx:coord>4.8765978 52.3684909 0</gx:coord>
+                <gx:coord>4.8778022 52.3690114 0</gx:coord>
+                <gx:coord>4.8766001 52.3715968 0</gx:coord>
+                <gx:coord>4.876109 52.3722564 0</gx:coord>
+                <gx:coord>4.8757351 52.372921299999994 0</gx:coord>
+            </gx:Track>
+            <TimeSpan>
+                <begin>2016-10-22T16:39:53.000Z</begin>
+                <end>2016-10-22T17:08:10.000Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>Café Sound Garden</name>
+            <address>Marnixstraat 164-166, 1016 TG Amsterdam, Netherlands</address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>david@guiza.net</value>
+                </Data>
+                <Data name="Category">
+                    <value>Bar</value>
+                </Data>
+                <Data name="Distance">
+                    <value>0</value>
+                </Data>
+            </ExtendedData>
+            <description> Bar from 2016-10-22T17:08:10.000Z to 2016-10-22T19:07:33.567Z. Distance 0m </description>
+            <Point>
+                <coordinates></coordinates>
+            </Point>
+            <gx:Track>
+                <altitudeMode>clampToGround</altitudeMode>
+                <gx:coord>4.8757351 52.372921299999994 0</gx:coord>
+            </gx:Track>
+            <TimeSpan>
+                <begin>2016-10-22T17:08:10.000Z</begin>
+                <end>2016-10-22T19:07:33.567Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>Walking</name>
+            <address></address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>david@guiza.net</value>
+                </Data>
+                <Data name="Category">
+                    <value>Walking</value>
+                </Data>
+                <Data name="Distance">
+                    <value>930</value>
+                </Data>
+            </ExtendedData>
+            <description> Walking from 2016-10-22T19:07:33.567Z to 2016-10-22T19:20:51.857Z. Distance 930m </description>
+            <Point>
+                <coordinates></coordinates>
+            </Point>
+            <gx:Track>
+                <altitudeMode>clampToGround</altitudeMode>
+                <gx:coord>4.8757351 52.372921299999994 0</gx:coord>
+                <gx:coord>4.877299 52.3745377 0</gx:coord>
+                <gx:coord>4.877444 52.3744299 0</gx:coord>
+                <gx:coord>4.877443 52.3744593 0</gx:coord>
+                <gx:coord>4.8781655 52.3759193 0</gx:coord>
+                <gx:coord>4.8806809 52.3782145 0</gx:coord>
+                <gx:coord>4.8814304 52.3779522 0</gx:coord>
+                <gx:coord>4.8837111 52.3785252 0</gx:coord>
+                <gx:coord>4.8844427999999995 52.3784491 0</gx:coord>
+            </gx:Track>
+            <TimeSpan>
+                <begin>2016-10-22T19:07:33.567Z</begin>
+                <end>2016-10-22T19:20:51.857Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>AH Westerstraat</name>
+            <address>Westerstraat 79, 1015 LW Amsterdam, Netherlands</address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>david@guiza.net</value>
+                </Data>
+                <Data name="Category">
+                    <value>Supermarket</value>
+                </Data>
+                <Data name="Distance">
+                    <value>0</value>
+                </Data>
+            </ExtendedData>
+            <description> Supermarket from 2016-10-22T19:20:51.857Z to 2016-10-22T19:34:08.050Z. Distance 0m </description>
+            <Point>
+                <coordinates></coordinates>
+            </Point>
+            <gx:Track>
+                <altitudeMode>clampToGround</altitudeMode>
+                <gx:coord>4.8844427999999995 52.3784491 0</gx:coord>
+            </gx:Track>
+            <TimeSpan>
+                <begin>2016-10-22T19:20:51.857Z</begin>
+                <end>2016-10-22T19:34:08.050Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>Walking</name>
+            <address></address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>david@guiza.net</value>
+                </Data>
+                <Data name="Category">
+                    <value>Walking</value>
+                </Data>
+                <Data name="Distance">
+                    <value>355</value>
+                </Data>
+            </ExtendedData>
+            <description> Walking from 2016-10-22T19:34:08.050Z to 2016-10-22T19:38:10.000Z. Distance 355m </description>
+            <Point>
+                <coordinates></coordinates>
+            </Point>
+            <gx:Track>
+                <altitudeMode>clampToGround</altitudeMode>
+                <gx:coord>4.8844427999999995 52.3784491 0</gx:coord>
+                <gx:coord>4.8844166 52.37958 0</gx:coord>
+                <gx:coord>4.8838704 52.3808949 0</gx:coord>
+                <gx:coord>4.8839185 52.3827333 0</gx:coord>
+            </gx:Track>
+            <TimeSpan>
+                <begin>2016-10-22T19:34:08.050Z</begin>
+                <end>2016-10-22T19:38:10.000Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>Brouwersgracht 677</name>
+            <address>Brouwersgracht 677, 1015 GJ Amsterdam, Netherlands</address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>david@guiza.net</value>
+                </Data>
+                <Data name="Category">
+                    <value>Geocoded Address</value>
+                </Data>
+                <Data name="Distance">
+                    <value>0</value>
+                </Data>
+            </ExtendedData>
+            <description> Geocoded Address from 2016-10-22T19:38:10.000Z to 2016-10-24T06:42:09.000Z. Distance 0m </description>
+            <Point>
+                <coordinates></coordinates>
+            </Point>
+            <gx:Track>
+                <altitudeMode>clampToGround</altitudeMode>
+                <gx:coord>4.8839185 52.3827333 0</gx:coord>
+            </gx:Track>
+            <TimeSpan>
+                <begin>2016-10-22T19:38:10.000Z</begin>
+                <end>2016-10-24T06:42:09.000Z</end>
+            </TimeSpan>
+        </Placemark>
+    </Document>
+</kml>
