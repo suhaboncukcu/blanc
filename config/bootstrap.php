@@ -231,3 +231,9 @@ Plugin::load('Google', ['bootstrap' => true, 'routes' => true]);
 
 Configure::write('Bill.config', ['bill']);
 Plugin::load('Bill', ['bootstrap' => true, 'routes' => true]);
+
+Plugin::load('Xety/Cake3Upload');
+
+Plugin::load('BootstrapUI');
+
+
