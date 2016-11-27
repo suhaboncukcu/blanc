@@ -60,10 +60,6 @@ class ReceiptsTable extends Table
             ->integer('id')
             ->allowEmpty('id', 'create');
 
-        $validator
-            ->dateTime('date')
-            ->requirePresence('date', 'create')
-            ->notEmpty('date');
 
 
         return $validator;
