@@ -16,6 +16,7 @@ class AnalyseController extends AppController
         parent::initialize();
         $this->autoRender = false;
         $this->response->header('Content-Type', 'application/json');
+        header("Access-Control-Allow-Origin: *");
     }
 
     public function index()

@@ -48,6 +48,7 @@ class MealsController extends AppController
      */
     public function add()
     {
+        header("Access-Control-Allow-Origin: *");
         $meal = $this->Meals->newEntity();
         if ($this->request->is('post')) {
             $meal = $this->Meals->patchEntity($meal, $this->request->data);

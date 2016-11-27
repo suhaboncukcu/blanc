@@ -14,6 +14,7 @@ class ReceiptsController extends AppController
 
     public function getJson()
     {
+        header("Access-Control-Allow-Origin: *");
         $this->autoRender = false;
         $this->response->header('Content-Type', 'application/json');
 
