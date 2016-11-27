@@ -59,8 +59,7 @@ class GeoController extends AppController
 		});
 
 
-		dump($collection->toArray());
-		die();
+		$jsonData = json_encode($collection->toArray());
 
 
         $this->response->body($jsonData);
