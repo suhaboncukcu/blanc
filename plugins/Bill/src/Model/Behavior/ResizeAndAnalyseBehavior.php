@@ -35,9 +35,11 @@ class ResizeAndAnalyseBehavior extends Behavior
 		    $constraint->upsize();
 		});
 		$img->encode('jpg', 70);
+		$img->orientate();
 		$data = $img->exif();
+
 		if($data['Orientation'] == 3) {
-			$img->rotate(-90);	
+			$img->rotate(90);	
 		}
 
 
